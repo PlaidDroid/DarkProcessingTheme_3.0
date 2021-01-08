@@ -1,6 +1,6 @@
 ![screenshot](screenshot.png)
 
-Dark Processing Theme (for 3.0)
+Darker Processing Theme (for 3.0)
 ===================
 
 A darker theme for the Processing IDE (a little more easier on the eyes!) for Processing 3.0.
