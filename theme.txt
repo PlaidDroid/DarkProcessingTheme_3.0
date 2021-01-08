@@ -11,7 +11,7 @@
 status.font =            processing.sans,plain,13
 
 status.error.fgcolor =   #ffffff
-status.error.bgcolor =   #777777
+status.error.bgcolor =   #1c1b17
 
 status.warning.bgcolor = #ffffff
 status.warning.fgcolor = #FFFFFF
@@ -27,8 +27,8 @@ status.url.fgcolor =     #cccccc
 header.text.font =             processing.sans,bold,14
 
 # background behind tabs
-header.gradient.top =          #333333
-header.gradient.bottom =       #333333
+header.gradient.top =          #12110e
+header.gradient.bottom =       #12110e
 
 # actual tabs themselves
 header.tab.selected.color =    #777777
@@ -49,8 +49,8 @@ footer.text.font =             processing.sans,bold,12
 footer.text.selected.color =   #ffffff
 footer.text.unselected.color = #ffffff
 
-footer.gradient.top =          #333333
-footer.gradient.bottom =       #333333
+footer.gradient.top =          #12110e
+footer.gradient.bottom =       #12110e
 
 footer.tab.selected.color =    #777777
 footer.tab.unselected.color =  #555555
@@ -70,8 +70,8 @@ console.error.color =  #cc9900
 
 
 # TOOLBAR
-toolbar.gradient.top =    #333333
-toolbar.gradient.bottom = #333333
+toolbar.gradient.top =    #12110e
+toolbar.gradient.bottom = #12110e
 
 
 # TOOLBAR BUTTONS
@@ -115,19 +115,19 @@ divider.dot.color =         #505050
 # EDITOR MISC...
 
 # the actual code window itself (bg) and the code color (fg)
-editor.fgcolor =                    #ffffff
-editor.bgcolor =                    #333333
+editor.fgcolor =                    #d9d5c1
+editor.bgcolor =                    #0a0907
 
 # highlight for the current line
-editor.linehighlight.color =        #555555
+editor.linehighlight.color =        #2d2c27
 editor.linehighlight =              true
 
 editor.caret.color =                #ffffff
 editor.selection.color =            #ffcc00
 
 # background of line number column
-editor.gradient.top =               #333333
-editor.gradient.bottom =            #333333
+editor.gradient.top =               #12110e
+editor.gradient.bottom =            #12110e
 
 # other settings for line number column (aka the "gutter")
 editor.gutter.text.font =           processing.mono,bold,12
@@ -144,13 +144,13 @@ editor.brackethighlight.color =     #777777
 # ERRORS
 # left as default
 errors.header.font =               processing.sans,plain,12
-errors.header.bgcolor =            #EBEBEB
+errors.header.bgcolor =            #1c1b17
 errors.header.fgcolor =            #484848
 errors.row.font =                  processing.sans,plain,12
-errors.row.fgcolor =               #484848
-errors.row.bgcolor =               #FFFFFF
+errors.row.fgcolor =               #d9d5c1
+errors.row.bgcolor =               #1c1b17
 errors.selection.fgcolor =         #242424
-errors.selection.bgcolor =         #E5E5E5
+errors.selection.bgcolor =         #1c1b17
 errors.selection.error.bgcolor =   #F5E6E6
 errors.selection.warning.bgcolor = #FDF2E7
 errors.indicator.error.color =     #9E0A0A
@@ -176,7 +176,7 @@ editor.eolmarkers.color = #999999
 # textual marker for the current line in left hand gutter
 # (must be two ascii characters)
 # editor.gutter.currentline.marker = ->
-# editor.gutter.currentline.marker.color = #e27500
+# editor.gutter.currentline.marker.color = #e2c9c8
 
 # marker for breakpointed lines in left hand gutter (also two ascii characters)
 # editor.gutter.breakpoint.marker = <>
@@ -211,3 +211,4 @@ manager.tab.background = #132638
 
 # tree for Examples and Sketchbook windows
 tree.font = processing.sans,plain,12
+
